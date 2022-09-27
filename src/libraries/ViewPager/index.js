@@ -21,7 +21,7 @@ export default class ViewPager extends PureComponent {
         ...View.propTypes,
         initialPage: PropTypes.number,
         pageMargin: PropTypes.number,
-        scrollViewStyle: ViewPropTypes ? ViewPropTypes.style : View.propTypes.style,
+        scrollViewStyle: ViewPropTypes.style,
         scrollEnabled: PropTypes.bool,
         renderPage: PropTypes.func,
         pageDataArray: PropTypes.array,

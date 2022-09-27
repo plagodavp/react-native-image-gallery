@@ -13,7 +13,7 @@ export default class TransformableImage extends PureComponent {
             ]).isRequired,
             dimensions: PropTypes.shape({ width: PropTypes.number, height: PropTypes.number })
         }).isRequired,
-        style: ViewPropTypes ? ViewPropTypes.style : View.propTypes.style,
+        style: ViewPropTypes.style,
         onLoad: PropTypes.func,
         onLoadStart: PropTypes.func,
         enableTransform: PropTypes.bool,
